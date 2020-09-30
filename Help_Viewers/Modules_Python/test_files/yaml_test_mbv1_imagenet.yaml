@@ -1,0 +1,57 @@
+version: 1
+policies:
+  - pruner:
+      instance_name : pruner_base_0
+    epochs: [1]
+
+  - pruner:
+      instance_name : pruner_base_1
+    epochs: [1]
+
+  - pruner:
+      instance_name : pruner_base_2
+    epochs: [1]
+  
+  - pruner:
+      instance_name : pruner_base_3
+    epochs: [1]
+  
+  - pruner:
+      instance_name : pruner_base_4
+    epochs: [1]
+
+  - pruner:
+      instance_name : pruner_base_5
+    epochs: [1]
+
+  - pruner:
+      instance_name : pruner_base_6
+    epochs: [1]
+
+  - pruner:
+      instance_name : pruner_base_7
+    epochs: [1]
+
+  - pruner:
+      instance_name : pruner_base_8
+    epochs: [1]
+
+  - pruner:
+      instance_name : pruner_base_9
+    epochs: [1]
+
+  - pruner:
+      instance_name : pruner_base_10
+    epochs: [1]
+
+  - pruner:
+      instance_name : pruner_base_11
+    epochs: [1]
+  
+  - pruner:
+      instance_name : pruner_base_12
+    epochs: [1]
+
+  - pruner:
+      instance_name : pruner_base_13
+    epochs: [1]

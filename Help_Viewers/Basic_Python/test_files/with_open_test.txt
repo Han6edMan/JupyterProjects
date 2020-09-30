@@ -1,0 +1,6 @@
+This is the file used for test the statement:
+```
+with open('filename') as f:
+    blablabla...
+```
+That's all.
