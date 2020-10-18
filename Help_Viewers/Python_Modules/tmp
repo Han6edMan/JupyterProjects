@@ -1,0 +1,33 @@
+**conda 添加镜像源**
+
+```bash
+conda config --add "<src_url>"
+```
+
+
+
+**生成jupyter配置文件**
+
+```bash
+jupyter notebook --generate-config
+```
+
+**设置默认浏览器为 chrome**
+
+在生成的`c:\\users\\<user_name>\\.jupyter\\jupyter_notebook_config.py`文件中找到`c.NotebookApp.browser`字段，将其取消注释并作如下修改：
+
+```python
+import webbrowser
+
+webbrowser.register("chrome",None,webbrowser.GenericBrowser(u"C:\\...\\chrome.exe"))
+
+c.NotebookApp.browser = 'chrome'
+
+```
+
+**设置jupyter默认打开的文件目录**
+
+找到`jupyter_notebook_config.py`文件（见上），找到`c.NotebookApp.notebook_dir`字段，将其取消注释并在后面加上希望的目录
+
+
+
