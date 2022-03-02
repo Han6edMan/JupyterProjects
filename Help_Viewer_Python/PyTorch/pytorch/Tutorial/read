@@ -1,0 +1,25 @@
+Pytorch Recipes
+
+    Defining a Neural Network
+    
+Tutorial-All
+    Read
+        Learning PyTorch with Examples
+    TO READ
+        PyTorch Distributed Overview
+        Getting Started with Distributed Data Parallel
+        Single-Machine Model Parallel Best Practices
+        Getting Started with Distributed Data Parallel
+        Parametrizations Tutorial
+        Performance Profiling in PyTorch
+        Performance Profiling in TensorBoard
+        Pruning Tutorial
+
+
+
+Optional
+    Custom Function Tutorial: Double Backward
+    Custom Function Tutorial: Fusing Convolution and Batch Norm
+    (beta) Channels Last Memory Format in PyTorch
+    Introduction to TorchScript
+
