@@ -20,3 +20,23 @@
         ]
     }
     ```
+
+#### 找不到 git
+1. 点击左下角按钮开用户设置
+2. 在设置页面搜索栏中输入 "git.path" 字样
+3. 点击在`setting.json`中编辑
+4. 在`git.path`后加入`"D:/ProgramFiles/Git/bin/git.exe"`即可，最后该文件部分内容如下所示：
+```json
+    {
+        "workbench.iconTheme": "vscode-icons",
+        "workbench.colorTheme": "monokai-charcoal",
+        "window.zoomLevel": -1,
+        "security.workspace.trust.untrustedFiles": "open",
+        "git.path": "D:/ProgramFiles/Git/bin/git.exe"
+    }
+```
+
+#### 设置 vscode 自动保存
+1. 点击左下角按钮开用户设置
+2. 在设置页面搜索栏中输入 "autosave" 字样
+3. 在`Files: Auto Save`一栏的下拉菜单中选择`afterDelay`即可
