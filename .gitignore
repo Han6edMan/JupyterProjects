@@ -1,4 +1,3 @@
 data/
-test/
-**/readme.html
-Help_Viewer_Python/PyTorch/data
+**/data
+**/events.out.tfevents.*
